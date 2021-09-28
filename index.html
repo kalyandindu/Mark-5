@@ -13,14 +13,21 @@
             margin-bottom: 20px;
             padding: 10px;        
         }
+        #txt-output{
+            border: 1px solid grey;
+            width: 80%;
+            height: 4rem;
+            margin: 20px 0;
+            padding: 10px;    
+        }
     </style>
     </head>
 <body>
     <h1> Translate to Banana Language</h1>
     <textarea id="txt-input" placeholder="Please enter text that you want to convert into banana language"></textarea>
     <button id="btn-translate"> Translate</button>
-  
-    <div id="txt-output" style="margin: 15px 0; font-size:large"></div>
+    <div style="font-size:large; margin-top: 20px"> Output: </div>
+    <div id="txt-output"></div>
     <script src="Translate.js" type="text/javascript"></script>
 </body>
 </html>
